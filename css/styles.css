@@ -29,6 +29,8 @@ h1 {
 footer {
   background-color: #2f303a;
   color: #fff;
+  width: 1600px;
+  height: 252px;
 }
 button {
   background-color: #2196f3;
@@ -42,8 +44,6 @@ button {
 
 .team {
   background-color: #f5f4fa;
-  margin: 0px 0px 0px 0px;
-  padding: 0px 215px 0px 215px;
 }
 
 h2 {
@@ -63,6 +63,8 @@ input:focus {
 
 .team-img {
   display: flex;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 215px 0px 215px;
 }
 
 .product-img {
@@ -128,7 +130,7 @@ input {
 .page a:focus {
   outline: none;
 }
-.logo {
+.logo span {
   color: #2196f3;
 }
 
@@ -141,4 +143,8 @@ input {
 }
 .section-center {
   background-color: #2f303a;
+}
+
+.section-list {
+  display: flex;
 }

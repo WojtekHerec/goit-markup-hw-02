@@ -40,10 +40,6 @@ button {
   border-radius: 4px;
 }
 
-.heading {
-  color: #212121;
-}
-
 .team {
   background-color: #f5f4fa;
   margin: 0px 0px 0px 0px;
@@ -93,6 +89,8 @@ input {
 
 .contacts {
   display: flex;
+  height: 80px;
+  width: 1600px;
 }
 
 .contacts ul {
@@ -119,8 +117,11 @@ input {
 .order-button {
   background-color: #2196f3;
   color: white;
-  height: 50px;
   width: 200px;
+  height: 50px;
+  top: 430px;
+  left: 700px;
+  margin: 350px 700px 200px 700px;
   border: 0px;
   border-radius: 4px;
 }
@@ -137,4 +138,7 @@ input {
 
   margin: 0px 0px 0px 0px;
   padding: 0px 215px 0px 215px;
+}
+.section-center {
+  background-color: #2f303a;
 }

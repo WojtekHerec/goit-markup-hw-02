@@ -5,9 +5,10 @@ body {
   color: #212121;
 }
 
-.wrapper {
+.page {
   justify-content: center;
   width: 1600px;
+  height: 2349px;
   margin: 0 auto;
 }
 h1 {
@@ -123,7 +124,7 @@ input {
   border: 0px;
   border-radius: 4px;
 }
-.wrapper a:focus {
+.page a:focus {
   outline: none;
 }
 .logo {

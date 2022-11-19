@@ -85,7 +85,7 @@ body {
   padding: 0px 215px 0px 215px;
 }
 
-footer {
+.access {
   background-color: #2f303a;
   color: #fff;
   width: 1600px;
@@ -111,7 +111,7 @@ input:focus {
   text-decoration: none;
   color: #212121;
 }
-footer a {
+.access a {
   color: #fff;
   text-decoration: none;
 }

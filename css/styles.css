@@ -11,7 +11,31 @@ body {
   height: 2349px;
   margin: 0 auto;
 }
-h1 {
+
+.page a:focus {
+  outline: none;
+}
+
+.contacts {
+  display: flex;
+  height: 80px;
+  width: 1600px;
+}
+
+.contacts a:focus {
+  color: #2196f3;
+  outline: none;
+}
+
+.contacts ul {
+  display: flex;
+  border-radius: 4px;
+  height: 50px;
+  width: 200px;
+  border: 0px;
+}
+
+.banner h1 {
   background-color: #2f303a;
   color: #fff;
   justify-content: center;
@@ -26,13 +50,7 @@ h1 {
   padding: 200px 452px 280px 452px;
 }
 
-footer {
-  background-color: #2f303a;
-  color: #fff;
-  width: 1600px;
-  height: 252px;
-}
-button {
+.banner button {
   background-color: #2196f3;
   color: #fff;
   height: 50px;
@@ -40,10 +58,38 @@ button {
   left: 700px;
   top: 430px;
   border-radius: 4px;
+  cursor: pointer;
+}
+
+.banner-list {
+  display: flex;
+}
+
+.our-job {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.our-job ul {
+  display: flex;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 215px 0px 215px;
 }
 
 .team {
   background-color: #f5f4fa;
+}
+
+.team ul {
+  display: flex;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 215px 0px 215px;
+}
+
+footer {
+  background-color: #2f303a;
+  color: #fff;
+  width: 1600px;
+  height: 252px;
 }
 
 h2 {
@@ -51,26 +97,17 @@ h2 {
   margin: 80px 0px 30px 0px;
   padding: 94px 695px 0px 695px;
 }
-.contacts a:focus {
-  color: #2196f3;
-  outline: none;
-}
+
 input:focus {
   background-color: #2196f3;
   color: white;
   outline: none;
 }
 
-.team-img {
-  display: flex;
-  margin: 0px 0px 0px 0px;
-  padding: 0px 215px 0px 215px;
-}
-
-.product-img {
+.product ul {
   display: flex;
 }
-header a {
+.contacts a {
   text-decoration: none;
   color: #212121;
 }
@@ -78,29 +115,12 @@ footer a {
   color: #fff;
   text-decoration: none;
 }
-a:visited {
+.page a:visited {
   color: none;
 }
-a {
-  text-decoration: none;
-}
 
-input {
+.button-list input {
   cursor: pointer;
-}
-
-.contacts {
-  display: flex;
-  height: 80px;
-  width: 1600px;
-}
-
-.contacts ul {
-  display: flex;
-  border-radius: 4px;
-  height: 50px;
-  width: 200px;
-  border: 0px;
 }
 
 .link-phone-mail a {
@@ -127,26 +147,10 @@ input {
   border: 0px;
   border-radius: 4px;
 }
-.page a:focus {
-  outline: none;
-}
+
 .logo span {
   color: #2196f3;
 }
 .logo {
   margin: 60px 93px 161px 215px;
-}
-.our-job {
-  display: flex;
-  background-color: rgba(255, 255, 255, 1);
-
-  margin: 0px 0px 0px 0px;
-  padding: 0px 215px 0px 215px;
-}
-.section-center {
-  background-color: #2f303a;
-}
-
-.section-list {
-  display: flex;
 }

@@ -120,12 +120,16 @@ body {
 .button-list input:focus {
   background-color: #2196f3;
   color: white;
-  outline: none;
 }
 
 .link-phone-mail a {
   color: rgba(255, 255, 255, 0.6);
 }
+
+.link-phone-mail :focus {
+  color: #2196f3;
+}
+
 .button-list {
   display: flex;
   height: 50px;

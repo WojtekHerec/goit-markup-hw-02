@@ -98,12 +98,6 @@ body {
   padding: 94px 695px 0px 695px;
 }
 
-input:focus {
-  background-color: #2196f3;
-  color: white;
-  outline: none;
-}
-
 .product ul {
   display: flex;
 }
@@ -121,6 +115,12 @@ input:focus {
 
 .button-list input {
   cursor: pointer;
+}
+
+.button-list input:focus {
+  background-color: #2196f3;
+  color: white;
+  outline: none;
 }
 
 .link-phone-mail a {

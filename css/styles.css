@@ -1,7 +1,6 @@
 body {
   background-color: #fff;
-  font-family: "Roboto", sans-serif;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #212121;
 }
 
@@ -16,18 +15,19 @@ body {
   outline: none;
 }
 
-.contacts {
+.navigation {
   display: flex;
   height: 80px;
   width: 1600px;
 }
 
-.contacts a:focus {
+.navigation-list a:focus,
+.navigation-list a:hover {
   color: #2196f3;
   outline: none;
 }
 
-.contacts ul {
+.navigation ul {
   display: flex;
   border-radius: 4px;
   height: 50px;
@@ -41,11 +41,8 @@ body {
   justify-content: center;
   width: 696px;
   height: 120px;
-  left: 452px;
-  top: 280px;
-  size: 44px;
   font-weight: 900;
-  line-height: 60px;
+
   margin: 80px 0px 30px 0px;
   padding: 200px 452px 280px 452px;
 }
@@ -55,8 +52,7 @@ body {
   color: #fff;
   height: 50px;
   width: 200px;
-  left: 700px;
-  top: 430px;
+
   border-radius: 4px;
   cursor: pointer;
 }
@@ -85,27 +81,28 @@ body {
   padding: 0px 215px 0px 215px;
 }
 
-.access {
+.address-bottom {
   background-color: #2f303a;
   color: #fff;
   width: 1600px;
   height: 252px;
 }
 
-.our-job h2 {
+.our-job h2,
+.team h2 {
   color: #212121;
   margin: 80px 0px 30px 0px;
   padding: 94px 695px 0px 695px;
 }
 
-.product ul {
+.products ul {
   display: flex;
 }
-.contacts a {
+.navigation a {
   text-decoration: none;
   color: #212121;
 }
-.access a {
+.address-bottom a {
   color: #fff;
   text-decoration: none;
 }
@@ -113,8 +110,10 @@ body {
   color: none;
 }
 
-.button-list input {
+.button-list input:hover {
   cursor: pointer;
+  background-color: #2196f3;
+  color: white;
 }
 
 .button-list input:focus {
@@ -122,11 +121,17 @@ body {
   color: white;
 }
 
-.link-phone-mail a {
+.address-link-phone-mail a {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.link-phone-mail :focus {
+.address-link-phone-mail a:focus,
+.address-link-phone-mail a:hover {
+  color: #2196f3;
+}
+
+.link-phone-mail a:focus,
+.link-phone-mail a:hover {
   color: #2196f3;
 }
 
@@ -135,7 +140,7 @@ body {
   height: 50px;
   width: 200px;
 }
-.butoon-list :focus {
+.button-list :focus {
   background-color: #2196f3;
   color: white;
   outline: none;
@@ -145,8 +150,6 @@ body {
   color: white;
   width: 200px;
   height: 50px;
-  top: 430px;
-  left: 700px;
   margin: 350px 700px 200px 700px;
   border: 0px;
   border-radius: 4px;
@@ -157,4 +160,5 @@ body {
 }
 .logo {
   margin: 60px 93px 161px 215px;
+  font-family: 'Raleway', sans-serif;
 }

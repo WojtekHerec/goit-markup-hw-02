@@ -1,3 +1,11 @@
+:root {
+  --main-color: #212121;
+  --blue-color: #2196f3;
+  --gray-color: #2f303a;
+  --white-color: #f5f4fa;
+  --pure-white-color: #fff;
+}
+
 body {
   background-color: #fff;
   font-family: 'Roboto', sans-serif;
@@ -47,7 +55,7 @@ body {
   padding: 200px 452px 280px 452px;
 }
 
-.banner button {
+.banner input {
   background-color: #2196f3;
   color: #fff;
   height: 50px;

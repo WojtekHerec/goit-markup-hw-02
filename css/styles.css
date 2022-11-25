@@ -44,6 +44,7 @@ body {
   width: 200px;
   border: 0px;
   line-height: 1.17;
+  font-size: 14px;
 }
 
 .title-solutions {
@@ -53,6 +54,7 @@ body {
   width: 696px;
   height: 120px;
   font-weight: 900;
+  font-size: 44px;
   line-height: 1.36;
   margin: 80px 0px 30px 0px;
   padding: 200px 452px 280px 452px;
@@ -138,11 +140,16 @@ body {
 .address-link-phone-mail a {
   color: var(--gray-color);
   line-height: 1.17;
+  font-size: 14px;
 }
 
 .address-link-phone-mail a:focus,
 .address-link-phone-mail a:hover {
   color: var(--blue-color);
+}
+
+.link-phone-mail a {
+  font-size: 14px;
 }
 
 .link-phone-mail a:focus,

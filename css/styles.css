@@ -101,6 +101,7 @@ body {
   color: var(--pure-white-color);
   width: 1600px;
   height: 252px;
+  font-size: 14px;
 }
 
 .our-job-title,
@@ -184,6 +185,7 @@ body {
 .products-list-title {
   font-weight: 700;
   line-height: 2;
+  font-size: 18px;
 }
 
 .team-list-title {
@@ -201,16 +203,19 @@ body {
   font-weight: 400;
   color: var(--light-grey-color);
   line-height: 1.71;
+  font-size: 14px;
 }
 
 .products-list-span {
   font-weight: 400;
   color: var(--light-grey-color);
   line-height: 1.87;
+  font-size: 16px;
 }
 
 .team-list-paragraf {
   font-weight: 400;
   color: var(--light-grey-color);
   line-height: 1.17;
+  font-size: 16px;
 }

@@ -111,6 +111,7 @@ body {
   padding: 94px 695px 0px 695px;
   line-height: 1.17;
   font-size: 36px;
+  font-weight: 700;
 }
 
 .products-list {
@@ -190,7 +191,7 @@ body {
 
 .team-list-title {
   line-height: 1.17;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
 }
 .banner-list-title {

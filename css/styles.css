@@ -106,6 +106,7 @@ body {
   color: var(--main-color);
   margin: 80px 0px 30px 0px;
   padding: 94px 695px 0px 695px;
+  line-height: 1.17;
 }
 
 .products-list {

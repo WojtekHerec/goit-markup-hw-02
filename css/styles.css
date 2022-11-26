@@ -12,7 +12,6 @@ body {
   background-color: var(--pure-white-color);
   font-family: 'Roboto', sans-serif;
   color: var(--main-color);
-  font-weight: 400;
 }
 
 .page {

@@ -12,7 +12,6 @@ body {
   background-color: var(--pure-white-color);
   font-family: 'Roboto', sans-serif;
   color: var(--main-color);
-  font-weight: 400;
 }
 
 .page {
@@ -157,6 +156,7 @@ body {
 .link-phone-mail a {
   font-size: 14px;
   font-weight: 500;
+  color: rgba(117, 117, 117, 1);
 }
 
 .link-phone-mail a:focus,
